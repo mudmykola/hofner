@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hofner</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="subnav">
+            <div class="container">
+                <div class="subnav-box">
+                    <div class="chart">
+                        <ul class="chart-list">
+                            <li class="chart-item">
+                                <p>ПН-СБ: 09:00–19:00</p>
+                            </li>
+                            <li class="chart-item">
+                                <a href="tel:+380968120013">+38 (096) 812 00 13</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="lang">
+                        <div class="langs">
+                            <form action="#">
+                                <label for=" lan ">МОВА: </label>
+                                <select name=" lan " id=" lan ">
+                                    <option class="langopt-item" value=" ukr ">УКР</option>
+                                    <option class="langopt-item" value=" rus ">РУС</option>
+                                    <option class="langopt-item" value=" eng ">ENG</option>
+
+                                </select>
+                            </form>
+                        </div>
+                        <div class=" currens ">
+                            <form action="# ">
+                                <label for=" curr ">ВАЛЮТА:</label>
+                                <select name="curr " id="curr ">
+                                    <option value="uah ">UAH</option>
+                                    <option value="rub ">RUB</option>
+                                    <option value="usa ">USA</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navigation">
+            <div class="container">
+                <!-- mobile hamburger -->
+                <div id="burgerToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="burger-menu">
+                        <a href="#">
+                            <li>Одяг</li>
+                        </a>
+                        <a href="#">
+                            <li>Медицина</li>
+                        </a>
+                        <a href="#">
+                            <li>Підсумки</li>
+                        </a>
+                        <a href="#">
+                            <li>Рюкзаки</li>
+                        </a>
+                        <a href="#" target="_blank">
+                            <li>Розгрузки</li>
+                        </a>
+                    </ul>
+                </div>
+                <!-- end mobile hamburger -->
+                <div class="navigation-box">
+                    <div class="navigation-box__logo">
+                        <img src="images/logo.png" alt="logo">
+                    </div>
+                    <nav class="navigation-box__menu">
+                        <ul class="menu-list">
+                            <li class="menu-item">
+                                <a href="#">Одяг</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">Медицина</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="#">Підсумки</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="#">Рюкзаки</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="#">Розгрузки</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="navigation-box__elem">
+                        <ul class="elem-list">
+                            <li class="elem-item">
+                                <div class="search">
+                                    <div class="search-innr">
+                                        <label class="search-btn" for="search-input">
+                                            <input id="search-input" type="text" />
+                                        </label>
+                                    </div>
+                                </div>
+                                <button class="logged">
+                                    <img src="images/logged-icon.png" alt="logged-icon">
+                                </button>
+                                <div class="whishlist">
+                                    <a class="whishlist-link" href="#">
+                                        <img src="images/whishlist-icon.png" alt="whishlist-icon">
+                                    </a>
+                                </div>
+                                <div class="basket">
+                                    <a href="#" class="basket-link">
+                                        <img src="images/basket-icon.png" alt="basket-icon">
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper ">
+        <main class="main ">
+            <!-- slider -->
+            <section class="slider">
+                <div class="container">
+                    <div class="slider-item__btn">
+                        <a class="slider-item__link" href="#">Переглянути новинки</a>
+                    </div>
+                </div>
+                <div class="slider-list">
+                    <div class="slider-item">
+                        <img src="images/slider-1.png" alt="slider-1">
+                    </div>
+                    <div class="slider-item"><img src="images/slider-2.jpg" alt="slider-2">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="slider-btn">
+                        <ul>
+                            <li class="slider-btn__prev"></li>
+                            <li class="slider-btn__next"></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- slider end -->
+            <!-- categories -->
+            <section class="categories">
+                <div class="container">
+                    <div class="categories-box">
+                        <ul class="categtop-list">
+                            <li class="categtop-item">
+                                <h2 class="categtop-item__title">Наші товари </h2>
+                                <p class="categtop-item__desc">Ми ретельно контролюємо виготовлення кожної частини спорядження та відбираємо тільки кращі матеріали</p>
+                            </li>
+                            <li class="categtop-item">
+                                <a href="#">
+                                    <img class="categtop-item__imag" src="images/category-cart-1.png" alt="category-cart-1">
+                                    <span class="categtop-item__cont">
+                                        <p>Обирай</p>
+                                        <h2>Одяг</h2>
+                                        <span class="categtop-item__read"> Усі товари
+                                            <img src="images/arrow-next.png" alt="arrow-next">
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="categtop-item">
+                                <a href="#">
+                                    <img class="categtop-item__imag" src="images/category-cart-2.png" alt="category-cart-2">
+                                    <span class="categtop-item__cont">
+                                        <p>Обирай</p>
+                                        <h2>Медицина</h2>
+                                        <span class="categtop-item__read"> Усі товари
+                                            <img src="images/arrow-next.png" alt="arrow-next">
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- categbuttom -->
+                        <ul class="categbuttom-list">
+                            <li class="categbuttom-item">
+                                <a href="#">
+                                    <img class="categbuttom-item__imag" src="images/category-cart-3.png" alt="category-cart-3">
+                                    <span class="categbuttom-item__cont">
+                                        <p>Обирай</p>
+                                        <h2>Підсумки</h2>
+                                        <span class="categbuttom-item__read"> Усі товари
+                                            <img src="images/arrow-next.png" alt="arrow-next">
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="categbuttom-item">
+                                <a href="#">
+                                    <img class="categbuttom-item__imag" src="images/category-cart-4.png" alt="category-cart-4">
+                                    <span class="categbuttom-item__cont">
+                                        <p>Обирай</p>
+                                        <h2>Рюкзаки</h2>
+                                        <span class="categbuttom-item__read"> Усі товари
+                                            <img src="images/arrow-next.png" alt="arrow-next">
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="categbuttom-item">
+                                <a href="#">
+                                    <img class="categbuttom-item__imag" src="images/category-cart-5.png" alt="category-cart-5">
+                                    <span class="categbuttom-item__cont">
+                                        <p>Обирай</p>
+                                        <h2>Рюзгрузки</h2>
+                                        <span class="categbuttom-item__read"> Усі товари
+                                            <img src="images/arrow-next.png" alt="arrow-next">
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- end categbuttom -->
+                    </div>
+                </div>
+            </section>
+            <!-- end categories -->
+            <!-- product -->
+            <section class="products">
+                <div class="container">
+                    <div class="products-top">
+                        <div class="products-top__title">
+                            <h2>Наші нові розробки</h2>
+                        </div>
+                        <div class="products-top__btn">
+                            <ul>
+                                <li class="products-btn__prev"></li>
+                                <li class="products-btn__next"></li>
+                            </ul>
+                        </div>
+                        <div class="products-top__links">
+                            <a href="#">Усі товари</a>
+                        </div>
+                    </div>
+                    <div class="products-content">
+                        <!-- mobile products -->
+                        <div class="mproducts-list">
+                            <!-- cart 1 -->
+                            <div class="mproducts-item">
+                                <div class="mproducts-item__label">
+                                    <p>-40%</p>
+                                </div>
+                                <div class="mproducts-cart">
+                                    <img class="mproducts-cart__imag" src="images/product-imag-1.png" alt="product-imag-1">
+                                </div>
+                                <ul class="mproducts-cart__list">
+                                    <li class="mproducts-cart__item">
+                                        <h2>БОЙОВА СОРОЧКА CS PIXEL ММ14</h2>
+                                        <p> 3 543,00 ₴ <span> 4 168,00 ₴</span></p>
+                                    </li>
+                                </ul>
+                                <div class="mproducts-btn">
+                                    <button class="mproducts-btn__sale">
+                                        <a href="#">ДО КОШИКА</a>
+                                        <span><img src="images/products-btn-sale.png" alt="product-btn-sale"></span>
+                                    </button>
+                                    <button class="mproducts-btn__whishlist">
+                                        <a href="#">В ОБРАНЕ</a>
+                                        <span><img src="images/products-btn-ehishlist.png" alt="product-btn-whishlist"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- end cart 1 -->
+                            <!-- cart 2 -->
+                            <div class="mproducts-item">
+                                <div class="mproducts-item__label">
+                                    <p>-40%</p>
+                                </div>
+                                <div class="mproducts-cart">
+                                    <img class="mproducts-cart__imag" src="images/product-imag-2.png" alt="product-imag-2">
+                                </div>
+                                <ul class="mproducts-cart__list">
+                                    <li class="mproducts-cart__item">
+                                        <h2>ЧОХОЛ БРОНЕЖИЛЕТА MULTICAM (КОПІЯ JPC)</h2>
+                                        <p> 3 543,00 ₴ <span> 4 168,00 ₴</span></p>
+                                    </li>
+                                </ul>
+                                <div class="mproducts-btn">
+                                    <button class="mproducts-btn__sale">
+                                        <a href="#">ДО КОШИКА</a>
+                                        <span><img src="images/products-btn-sale.png" alt="product-btn-sale"></span>
+                                    </button>
+                                    <button class="mproducts-btn__whishlist">
+                                        <a href="#">В ОБРАНЕ</a>
+                                        <span><img src="images/products-btn-ehishlist.png" alt="product-btn-whishlist"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- end cart 2 -->
+                            <!-- cart 3 -->
+                            <div class="mproducts-item">
+                                <div class="mproducts-item__label products-item__offer">
+                                    <p>New</p>
+                                </div>
+                                <div class="mproducts-cart">
+                                    <img class="mproducts-cart__imag" src="images/product-imag-3.png" alt="product-imag-3">
+                                </div>
+                                <ul class="mproducts-cart__list">
+                                    <li class="mproducts-cart__item">
+                                        <h2>ПІДСУМОК ДЛЯ АПТЕЧКИ IFAK MULTICAM</h2>
+                                        <h1> 1 151,00 ₴<span> </span></h1>
+                                    </li>
+                                </ul>
+                                <div class="mproducts-btn">
+                                    <button class="mproducts-btn__sale">
+                                        <a href="#">ДО КОШИКА</a>
+                                        <span><img src="images/products-btn-sale.png" alt="product-btn-sale"></span>
+                                    </button>
+                                    <button class="mproducts-btn__whishlist">
+                                        <a href="#">В ОБРАНЕ</a>
+                                        <span><img src="images/products-btn-ehishlist.png" alt="product-btn-whishlist"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- end cart 3 -->
+                            <!-- cart 4 -->
+                            <div class="mproducts-item">
+                                <div class="mproducts-item__label">
+                                    <p>-20%</p>
+                                </div>
+                                <div class="mproducts-cart">
+                                    <img class="mproducts-cart__imag" src="images/product-imag-4.png" alt="product-imag-4">
+                                </div>
+                                <ul class="mproducts-cart__list">
+                                    <li class="mproducts-cart__item">
+                                        <h2>КАРКАСНИЙ ПІДСУМОК ДЛЯ СКИДУ МУЛЬТИКАМ</h2>
+                                        <p> 835,00 ₴<span> 710,00 ₴</span></p>
+                                    </li>
+                                </ul>
+                                <div class="mproducts-btn">
+                                    <button class="mproducts-btn__sale">
+                                        <a href="#">ДО КОШИКА</a>
+                                        <span><img src="images/products-btn-sale.png" alt="product-btn-sale"></span>
+                                    </button>
+                                    <button class="mproducts-btn__whishlist">
+                                        <a href="#">В ОБРАНЕ</a>
+                                        <span><img src="images/products-btn-ehishlist.png" alt="product-btn-whishlist"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- end cart 4 -->
+                            <div class="mproducts-item">
+                                <div class="mproducts-item__label">
+                                    <p>-40%</p>
+                                </div>
+                                <div class="mproducts-cart">
+                                    <img class="mproducts-cart__imag" src="images/product-imag-1.png" alt="">
+                                </div>
+                                <ul class="mproducts-cart__list">
+                                    <li class="mproducts-cart__item">
+                                        <h2>БОЙОВА СОРОЧКА CS PIXEL ММ14</h2>
+                                        <p> 3 543,00 ₴ <span> 4 168,00 ₴</span></p>
+                                    </li>
+                                </ul>
+                                <div class="mproducts-btn">
+                                    <button class="mproducts-btn__sale">
+                                        <a href="#">ДО КОШИКА</a>
+                                        <span><img src="images/products-btn-sale.png" alt="product-btn-sale"></span>
+                                    </button>
+                                    <button class="mproducts-btn__whishlist">
+                                        <a href="#">В ОБРАНЕ</a>
+                                        <span><img src="images/products-btn-ehishlist.png" alt="product-btn-whishlist"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="mproducts-item">
+                                <div class="mproducts-item__label">
+                                    <p>-40%</p>
+                                </div>
+                                <div class="mproducts-cart">
+                                    <img class="mproducts-cart__imag" src="images/product-imag-1.png" alt="">
+                                </div>
+                                <ul class="mproducts-cart__list">
+                                    <li class="mproducts-cart__item">
+                                        <h2>БОЙОВА СОРОЧКА CS PIXEL ММ14</h2>
+                                        <p> 3 543,00 ₴ <span> 4 168,00 ₴</span></p>
+                                    </li>
+                                </ul>
+                                <div class="mproducts-btn">
+                                    <button class="mproducts-btn__sale">
+                                        <a href="#">ДО КОШИКА</a>
+                                        <span><img src="images/products-btn-sale.png" alt="product-btn-sale"></span>
+                                    </button>
+                                    <button class="mproducts-btn__whishlist">
+                                        <a href="#">В ОБРАНЕ</a>
+                                        <span><img src="images/products-btn-ehishlist.png" alt="product-btn-whishlist"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end mobile products -->
+                        <div class="products-list">
+                            <!-- cart 1 -->
+                            <div class="products-item">
+                                <div class="products-item__label">
+                                    <p>-40%</p>
+                                </div>
+                                <div class="products-cart">
+                                    <img class="products-cart__imag" src="images/product-imag-1.png" alt="product-imag-1">
+                                </div>
+                                <ul class="products-cart__list">
+                                    <li class="products-cart__item">
+                                        <h2>БОЙОВА СОРОЧКА CS PIXEL ММ14</h2>
+                                        <p> 3 543,00 ₴ <span> 4 168,00 ₴</span></p>
+                                    </li>
+                                </ul>
+                                <div class="products-btn">
+                                    <button class="products-btn__sale">
+                                        <a href="#">ДО КОШИКА</a>
+                                        <span><img src="images/products-btn-sale.png" alt="product-btn-sale"></span>
+                                    </button>
+                                    <button class="products-btn__whishlist">
+                                        <a href="#">В ОБРАНЕ</a>
+                                        <span><img src="images/products-btn-ehishlist.png" alt="product-btn-whishlist"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- end cart 1 -->
+                            <!-- cart 2 -->
+                            <div class="products-item">
+                                <div class="products-item__label">
+                                    <p>-40%</p>
+                                </div>
+                                <div class="products-cart">
+                                    <img class="products-cart__imag" src="images/product-imag-2.png" alt="product-imag-2">
+                                </div>
+                                <ul class="products-cart__list">
+                                    <li class="products-cart__item">
+                                        <h2>ЧОХОЛ БРОНЕЖИЛЕТА MULTICAM (КОПІЯ JPC)</h2>
+                                        <p> 3 543,00 ₴ <span> 4 168,00 ₴</span></p>
+                                    </li>
+                                </ul>
+                                <div class="products-btn">
+                                    <button class="products-btn__sale">
+                                        <a href="#">ДО КОШИКА</a>
+                                        <span><img src="images/products-btn-sale.png" alt="product-btn-sale"></span>
+                                    </button>
+
+                                    <button class="products-btn__whishlist">
+                                        <a href="#">В ОБРАНЕ</a>
+                                        <span><img src="images/products-btn-ehishlist.png" alt="product-btn-whishlist"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- end cart 2 -->
+                            <!-- cart 3 -->
+                            <div class="products-item">
+                                <div class="products-item__label products-item__offer">
+                                    <p>New</p>
+                                </div>
+                                <div class="products-cart">
+                                    <img class="products-cart__imag" src="images/product-imag-3.png" alt="product-imag-3">
+                                </div>
+                                <ul class="products-cart__list">
+                                    <li class="products-cart__item">
+                                        <h2>ПІДСУМОК ДЛЯ АПТЕЧКИ IFAK MULTICAM</h2>
+                                        <h1> 1 151,00 ₴<span> </span></h1>
+                                    </li>
+                                </ul>
+                                <div class="products-btn">
+                                    <button class="products-btn__sale">
+                                        <a href="#">ДО КОШИКА</a>
+                                        <span><img src="images/products-btn-sale.png" alt="product-btn-sale"></span>
+                                    </button>
+                                    <button class="products-btn__whishlist">
+                                        <a href="#">В ОБРАНЕ</a>
+                                        <span><img src="images/products-btn-ehishlist.png" alt="product-btn-whishlist"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- end cart 3 -->
+                            <!-- cart 4 -->
+                            <div class="products-item">
+                                <div class="products-item__label">
+                                    <p>-20%</p>
+                                </div>
+                                <div class="products-cart">
+                                    <img class="products-cart__imag" src="images/product-imag-4.png" alt="product-imag-4">
+                                </div>
+                                <ul class="products-cart__list">
+                                    <li class="products-cart__item">
+                                        <h2>КАРКАСНИЙ ПІДСУМОК ДЛЯ СКИДУ МУЛЬТИКАМ</h2>
+                                        <p> 835,00 ₴<span> 710,00 ₴</span></p>
+                                    </li>
+                                </ul>
+                                <div class="products-btn">
+                                    <button class="products-btn__sale">
+                                        <a href="#">ДО КОШИКА</a>
+                                        <span><img src="images/products-btn-sale.png" alt="product-btn-sale"></span>
+                                    </button>
+                                    <button class="products-btn__whishlist">
+                                        <a href="#">В ОБРАНЕ</a>
+                                        <span><img src="images/products-btn-ehishlist.png" alt="product-btn-whishlist"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- end cart 4 -->
+                            <div class="products-item">
+
+                                <div class="products-item__label">
+                                    <p>-40%</p>
+                                </div>
+                                <div class="products-cart">
+                                    <img class="products-cart__imag" src="images/product-imag-1.png" alt="">
+                                </div>
+                                <ul class="products-cart__list">
+                                    <li class="products-cart__item">
+                                        <h2>БОЙОВА СОРОЧКА CS PIXEL ММ14</h2>
+                                        <p> 3 543,00 ₴ <span> 4 168,00 ₴</span></p>
+                                    </li>
+                                </ul>
+                                <div class="products-btn">
+                                    <button class="products-btn__sale">
+                                        <a href="#">ДО КОШИКА</a>
+                                        <span><img src="images/products-btn-sale.png" alt="product-btn-sale"></span>
+                                    </button>
+                                    <button class="products-btn__whishlist">
+                                        <a href="#">В ОБРАНЕ</a>
+                                        <span><img src="images/products-btn-ehishlist.png" alt="product-btn-whishlist"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="products-item">
+                                <div class="products-item__label">
+                                    <p>-40%</p>
+                                </div>
+                                <div class="products-cart">
+                                    <img class="products-cart__imag" src="images/product-imag-1.png" alt="">
+                                </div>
+                                <ul class="products-cart__list">
+                                    <li class="products-cart__item">
+                                        <h2>БОЙОВА СОРОЧКА CS PIXEL ММ14</h2>
+                                        <p> 3 543,00 ₴ <span> 4 168,00 ₴</span></p>
+                                    </li>
+                                </ul>
+                                <div class="products-btn">
+                                    <button class="products-btn__sale">
+                                        <a href="#">ДО КОШИКА</a>
+                                        <span><img src="images/products-btn-sale.png" alt="product-btn-sale"></span>
+                                    </button>
+                                    <button class="products-btn__whishlist">
+                                        <a href="#">В ОБРАНЕ</a>
+                                        <span><img src="images/products-btn-ehishlist.png" alt="product-btn-whishlist"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end product -->
+            <!-- info -->
+            <section class="info">
+                <div class="container">
+                    <div class="info-box">
+                        <ul class="info-list">
+                            <li class="info-item">
+                                <h2>ЯКІСНЕ ТАКТИЧНЕ СПОРЯДЖЕННЯ ДЛЯ СПЕЦПІДРОЗДІЛІВ</h2>
+                                <p>Наші клієнти – гарант якості. Продукція Hofner, в першу чергу, розрахована для підрозділів спецназу і військової розвідки. Також, нашу екіпіровку використовують солдати збройних сил України, прикордонної служби, нацгвардія,
+                                    добровольчі батальйони, працівники ДСО, морські піхотинці, військові парамедики і десантники.
+                                    <br> <br> Завдання нашого тактичного спорядження – не підвести в бою і бути корисним позаду лінії фронту. Примітно, що спорядження Hofner користується попитом і на "Великій землі". Крім військових дій, наше екіпірування
+                                    якісно зарекомендувало себе серед страйкболістів та мисливців.
+                                </p>
+                            </li>
+                            <li class="info-item">
+                                <img src="images/info-image.png" alt="info-image">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- end info -->
+            <!-- about -->
+            <section class="about">
+                <div class="container">
+                    <div class="about-box">
+                        <div class="about-box__text">
+                            <h2>Ще більше цікавого у нашому Instagram</h2>
+                            <p>Підписуйся на нашу сторінку в Instagram та першим дізнайвайся про новинки та акції. Також на тебе чекають огляди популярних товарів, майстер-класи та багато іншого.
+                            </p>
+                            <a href="#">перейти до instagram</a>
+                        </div>
+                        <div class="about-box__imag">
+                            <ul class="about-top__list">
+                                <li class="about-imag__item">
+                                    <img src="images/about-imag-1.png" alt="about-imag-1">
+                                    <a class="about-imag__link" href="#">@hofner.ukraine</a>
+                                </li>
+                                <li class="about-imag__item">
+                                    <img src="images/about-imag-2.png" alt="about-imag-2">
+                                    <a class="about-imag__link" href="#">@hofner.ukraine</a>
+                                </li>
+                                <li class="about-imag__item">
+                                    <img src="images/about-imag-3.png" alt="about-imag-3">
+                                    <a class="about-imag__link" href="#">@hofner.ukraine</a>
+                                </li>
+                            </ul>
+                            <ul class="about-bottom__list">
+                                <li class="about-imag__item">
+                                    <img src="images/about-imag-4.png" alt="about-imag-4">
+                                    <a class="about-imag__link" href="#">@hofner.ukraine</a>
+                                </li>
+                                <li class="about-imag__item">
+                                    <img src="images/about-imag-5.png" alt="about-imag-5">
+                                    <a class="about-imag__link" href="#">@hofner.ukraine</a>
+                                </li>
+                                <li class="about-imag__item">
+                                    <img src="images/about-imag-6.png" alt="about-imag-6">
+                                    <a class="about-imag__link" href="#">@hofner.ukraine</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end about -->
+            <!-- video -->
+            <section class="video">
+                <div class="container">
+                    <div class="video-box">
+                        <div class="video-box__text">
+                            <h2>ВСЯ ПРОДУКЦІЯ ПРОЙШЛА ВИПРОБУВАННЯ В ЗОНІ ООС (АТО)</h2>
+                            <p>Випробувано залізними людьми в залізних умовах. Наша продукція розроблена спільно з військовими фахівцями, з огляду на досвід бойових дій на сході України. Відчула на власній "кордурі" молот і ковадло полігонів. Спочатку вся
+                                продукція ретельно тестується на навчаннях. Наше екіпірування загартована війною. Надійність матеріалів та зручність спорядження Hofner поліпшило якість проведення багатьох бойових операцій.</p>
+                        </div>
+                        <div class="video-box__player">
+                            <iframe src="https://www.youtube.com/embed/NIp7Uoe5CIg" autoplay></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end video -->
+            <!-- preference -->
+            <section class="preference">
+                <div class="container">
+                    <div class="preference-top">
+                        <ul class="preference-top__list">
+                            <li class="preference-top__item">
+                                <h2 class="preference-top__sub">Наші переваги</h2>
+                                <p class="preference-top__text">Ми добре знаємо, що від якості виготовленого нами екіпірування залежить чиєсь життя. Наша головна мета – не допустити того, щоб солдат втратив його. </p>
+
+                            </li>
+
+                            <li class="preference-top__item">
+                                <img class="preference-top__imag" src="images/preference-icon-1.png" alt="preference-icon-1">
+                                <h2 class="preference-top__title">Дбайливо продумуємо дизайн</h2>
+                                <p class="preference-top__desc">Наші конструктори здобувають своє натхення " з усіх річок". Ми пильно стежимо за новинками тактичного спорядження на світовому ринку. Вивчаємо продукцію топових брендів, переймаємо їх досвід. Кращі розробки провідних армій
+                                    світу втілені в наших продуктах.</p>
+                                <a class="preference-top__link" href="#">читати більше</a>
+                            </li>
+
+                            <li class="preference-top__item">
+                                <img class="preference-top__imag" src="images/preference-icon-2.png" alt="preference-icon-2">
+                                <h2 class="preference-top__title">Враховуємо побажання бійців</h2>
+                                <p class="preference-top__desc">У розробці може взяти участь будь-який клієнт. Чому? Те, що помітили ви, могли не побачити ми. Солдат із бойовим досвідом, що випробував на собі безліч видів тактичного спорядження точно знає, що оптимально підходить для
+                                    ведення бойових дій.</p>
+                                <a class="preference-top__link" href="#">читати більше</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- preference bottom -->
+                    <div class="preference-bottom">
+                        <ul class="preference-bottom__list">
+                            <li class="preference-bottom__item">
+                                <img class="preference-bottom__imag" src="images/preference-icon-3.png" alt="preference-icon-3">
+                                <h2 class="preference-bottom__title">Наша ціль – найвища якість!</h2>
+                                <p class="preference-bottom__desc">Ми добре знаємо, що від якості виготовленого нами екіпірування залежить чиєсь життя. Наша головна мета - не допустити того, щоб солдат втратив його. А це також залежить від надійності спорядження. Від вас ми вимагаємо тільки
+                                    успішного виконання бойових завдань.</p>
+                                <a class="preference-bottom__link" href="#">читати більше</a>
+                            </li>
+                            <li class="preference-bottom__item">
+                                <img class="preference-bottom__imag" src="images/preference-icon-4.png" alt="preference-icon-4">
+                                <h2 class="preference-bottom__title">Оригінальна тканина і фурнітура</h2>
+                                <p class="preference-bottom__desc">Безсумнівно, ціна замінника дешевша. Але ми, в першу чергу, цінуємо життя наших клієнтів, яке залежить від якості екіпірування. Тріснутий фастекс або армована нитка китайського виробництва, можуть призвести до сумних наслідків
+                                    під час бою.</p>
+                                <a class="preference-bottom__link" href="#">читати більше</a>
+                            </li>
+                            <li class="preference-bottom__item">
+                                <img class="preference-bottom__imag" src="images/preference-icon-5.png" alt="preference-icon-5">
+                                <h2 class="preference-bottom__title">Доставка по україні та закордон</h2>
+                                <p class="preference-bottom__desc">Якщо якість - наш коник, то сервіс відповідає. Доставимо куди завгодно. Працюємо як з вітчизняними, так і з закордонними службами доставки. В основному, щоб уникнути переплат, ми працюємо з національним перевізником «Укрпошта»,
+                                    який доставляє не тільки по...</p>
+                                <a class="preference-bottom__link" href="#">читати більше</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- end preference -->
+            <!-- subcontact -->
+            <section class="subcontact">
+                <img src="images/subcontact-bg.png" alt="subcontact-bg">
+            </section>
+            <!-- end subcontact -->
+            <!-- contact -->
+            <section class="contact">
+                <div class="container">
+                    <div class="contact-box">
+                        <ul class="contact-list">
+                            <li class="contact-item">
+                                <h2 class="contact-item__title">Каталог товарів</h2>
+                                <a class="contact-item__link" href="#">Одяг</a>
+                                <a class="contact-item__link" href="#">Медицина</a>
+                                <a class="contact-item__link" href="#">Підсумки</a>
+                                <a class="contact-item__link" href="#">Рюкзаки</a>
+                                <a class="contact-item__link" href="#">Розгрузки</a>
+                            </li>
+                            <li class="contact-item">
+                                <h2 class="contact-item__title">Покупцям</h2>
+                                <a class="contact-item__link" href="#">Розмірна сітка</a>
+                                <a class="contact-item__link" href="#">Матеріали</a>
+                                <a class="contact-item__link" href="#">Доставка та оплата</a>
+                                <a class="contact-item__link" href="#">Обмін та повернення</a>
+                                <a class="contact-item__link" href="#">Контакти</a>
+                            </li>
+                            <li class="contact-item comp-width">
+                                <h2 class="contact-item__title">Компанія</h2>
+                                <a class="contact-item__link" href="#">Блог</a>
+                                <a class="contact-item__link" href="#">Публічна оферта</a>
+                                <a class="contact-item__link" href="#">Політика конфіденційності</a>
+                                <a class="contact-item__link" href="#">Правила використання файлів Cookie</a>
+                            </li>
+                            <li class="contact-item">
+                                <h2 class="contacts-title">Контакти</h2>
+                                <div class="contacts-box">
+                                    <div class="contacts-box__imag">
+                                        <img src="images/contacts-phone-icon.png" alt="contacts-icon">
+                                    </div>
+                                    <div class="contacts-box__number">
+                                        <a href="tel:+380968120013">+38 (096) 812 00 13</a>
+                                        <p>Пн–Сб, 09:00–19:00</p>
+                                    </div>
+                                </div>
+                                <div class="mail-box">
+                                    <div class="mail-box__imag">
+                                        <img src="images/mail-icon.png" alt="mail-icon">
+                                    </div>
+                                    <div class="mail-box__number">
+                                        <a href="mail:hofner.ukraine@gmail.com">hofner.ukraine@gmail.com</a>
+                                        <p>Електронна адреса</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="contact-item">
+                                <h2 class="mail-title">Підписка на новини та акції</h2>
+                                <form class="mail-form" action="#">
+                                    <input placeholder="E-mail" type="email" id="email" name="email">
+                                </form>
+                                <input class="mail-form__btn" type="submit" value="ОФОРМИТИ ПІДПИСКУ"> </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- end contact -->
+    </div>
+    </main>
+    <!-- footer -->
+    <footer class=" footer ">
+        <div class="container ">
+            <div class="footer-box ">
+                <div class="footer-logo ">
+                    <img src="images/logo.png " alt="footer-logo ">
+                </div>
+                <div clgit merge ass="footer-pay ">
+                    <ul class="footer-pay__list ">
+                        <li class="footer-pay__item ">
+                            <a href="# ">
+                                <img src="images/visa-icon.png " alt="visa-icon ">
+                            </a>
+                        </li>
+                        <li class="footer-pay__item ">
+                            <a href="# ">
+                                <img src="images/master-icon.png " alt="master-icon ">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-social ">
+                    <ul class="footer-social__list ">
+                        <li class="footer-social__item ">
+                            <a href="# ">
+                                <img class="footer-social__fb" src="images/facebook-icon.svg " alt="fb-icon ">
+                            </a>
+                        </li>
+                        <li class="footer-social__item ">
+                            <a href="# ">
+                                <img src="images/insta-icon.svg " alt="insta-icon ">
+                            </a>
+                        </li>
+                        <li class="footer-social__item ">
+                            <a href="# ">
+                                <img src="images/youtube-icon.svg " alt="youtube-icon ">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-copy ">
+                    <span><img src="images/copy-icon.png " alt="copy-icon "></span>
+                    <a class="footer-copy__link " href="# ">
+                        Quality Business Solutions
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="js/main.min.js "></script>
+    <script type="text/javascript " src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script>
+</body>
+
+</html>
